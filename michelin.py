@@ -196,7 +196,7 @@ def update_table(award, currency, cuisine):
         Input(component_id="cuisine", component_property="value"),
     ],
 )
-def update_table(award, currency, cuisine):
+def update_gragh(award, currency, cuisine):
     x = df[df.Award.isin(award)]
     if currency:
         x = x[x.Currency.isin(currency)]
