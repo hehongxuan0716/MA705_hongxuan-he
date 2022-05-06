@@ -18,7 +18,7 @@ app.layout = html.Div(
         html.Blockquote("Individual MA705 Project | Hongxuan He"),
         html.Div(
             [
-                html.H2("Context"),
+                html.H2("Background"),
                 html.P(
                     "At the beginning of the automobile era, Michelin, a tire company, created a travel guide, including a restaurant guide."
                 ),
@@ -31,7 +31,7 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.H2("Content"),
+                        html.H2("Dataset Description"),
                         html.P(
                             "The dataset contains a list of restaurants along with additional details (e.g. address, price range, cuisine type, longitude, latitude, etc.) curated from the MICHELIN Restaurants guide. The culinary distinctions (i.e. the 'Award' column) of the restaurants included are:"
                         ),
@@ -53,7 +53,7 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.H2("Parameters"),
+                        html.H2(" "),
                         html.P("Select a Award:"),
                         dcc.Checklist(
                             [
